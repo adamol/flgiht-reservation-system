@@ -1,0 +1,29 @@
+{
+    "airports": [
+        {
+            "code": "GBG",
+            "name": "Gothenburg"
+        },
+        {
+            "code": "CGN",
+            "name": "Cologne"
+        }
+    ],
+    "connections": [
+        {
+            "origin": "GBG",
+            "destination": "CGN",
+            "base_price": [
+                "amount": 7999,
+                "currency": "EUR"
+            },
+            "flights": [
+                {
+                    "id": 1,
+                    "departure": "2020-01-01 10:00:00",
+                    "arrival": "2020-01-01 12:00:00"
+                }
+            ]
+        }
+    ]
+}
